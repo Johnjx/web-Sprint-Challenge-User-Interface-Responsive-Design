@@ -93,6 +93,23 @@ header {
     background-repeat: no-repeat;
 }
 
+header div {
+    background-color: rgb(0, 4, 17, .8);
+    text-align: center;
+    
+}
+
+header nav div a {
+    margin: 0 4%;
+    
+}
+
+nav button {
+    margin: 2% 1%;
+}
+
+
+
 /* spacers */
 .spacer {
     width: 100%;
@@ -113,6 +130,23 @@ header {
     background-color: rgb(0, 4, 17);
 }
 
+
+.gallery h2 {
+    color: rgb(225, 239, 230);
+    padding: 1%;
+}
+
+.gallery img {
+    width: 30%;
+    padding: 1%;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /* about us section */
 .about {
     width: 100%;
@@ -131,14 +165,17 @@ header {
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 4, 17, .8);
+    
 }
 
 .about h2 {
     width: 100%;
+    color: rgb(225, 239, 230);
 }
 
 .about-container .text {
     width: 50%;
+    color: rgb(225, 239, 230)
 }
 
 /* contact us section */
@@ -159,14 +196,17 @@ header {
 
 .contact h2 {
     padding-top: 5vh;
+    color: rgb(225, 239, 230);
 }
 
 .contact h3 {
     padding-top: 2.5vh;
+    color: rgb(225, 239, 230);
 }
 
 .contact p {
     padding: .5vh 0;
+    color: rgb(225, 239, 230);
 }
 
 .info {
@@ -194,7 +234,51 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: rgb(0, 4, 17);
 }
+
+footer div {
+    width: 40%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer nav a {
+   margin: 0 3%;
+   color: rgb(225, 239, 230);
+}
+
+footer label, footer p {
+    color: rgb(225, 239, 230);
+}
+
+footer p {
+    font-size: 2rem;
+    padding-top: 6%;
+    padding-left: 20%;
+}
+
+footer div label {
+    margin-left: 10%;
+}
+
+footer div input {
+    margin-left: 10%;
+}
+
+footer div button {
+    padding: 0 2%;
+    
+}
+
+
+
+
+
+
 
 /* mobile media query */
 @media (max-width: 428px) {
