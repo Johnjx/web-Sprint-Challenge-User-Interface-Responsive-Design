@@ -285,11 +285,15 @@ footer div label {
 footer div input {
     margin-left: 5%;
     width: 50%;
+    height: 3vh;
+    font-size: 2.5rem;
+    
 }
 
 footer div button {
     padding: 0 2%;
-    
+    height: 3vh;
+    font-size: 2.5rem;
 }
 
 
@@ -332,7 +336,7 @@ footer div button {
 
     
     .gallery img {
-        width: 80%;
+        width: 100vw;
         padding: 1%;
         margin-bottom: 4%;
     }
@@ -404,11 +408,13 @@ footer div button {
     }
     
     footer p {
-        font-size: 2.2rem;
+        font-size: 1.6rem;
         padding-top: 6%;
         padding-bottom: 1%;
         padding-left: 0;
+        width: 70%;
         text-align: center;
+        margin: 0 auto;
     }
     
     footer div label {
@@ -418,14 +424,17 @@ footer div button {
     
     footer div input {
         margin-left: 5%;
+        margin-top: 8%;
         width: 90%;
+        font-size: 1.5rem;
     }
     
     footer div button {
         padding: 0 2%;
         width: 90%;
         margin-left: 5%;
-        
+        font-size: 1.5rem;
+        font-weight: bold;
     }
     
 }
